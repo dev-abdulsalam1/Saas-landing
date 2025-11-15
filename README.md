@@ -1,47 +1,45 @@
-# 📄 README – Modern Landing Page (Next.js + Tailwind CSS)
+# 📄 Modern Landing Page (Next.js + Tailwind CSS)
 
 ## 🚀 Overview
 
 This project is a **modern, responsive landing page** built using **Next.js** and **Tailwind CSS**.  
-It includes reusable components such as **Hero**, **Pricing**, **Testimonials**, and **Footer** sections, making it easy to modify or extend.
+It includes reusable UI components such as **Hero**, **Product Showcase**, **Pricing**, **Testimonials**, **CTA**, and **Footer**, making it easy to modify or extend.
 
-The layout consists of a simple and clean structure suitable for **SaaS, startup, portfolio, or business landing pages**.
+The layout is clean and suitable for:
 
+- SaaS products  
+- Startup websites  
+- Personal portfolios  
+- Business landing pages  
+- Marketing campaigns  
 
+---
 
-## 🧩 Homepage Structure
+## 📦 Features (Components Included)
 
-The `Home` component renders the entire landing page using the following sections:
+- **Hero Section**  
+- **Product Showcase**  
+- **Pricing Plans**  
+- **Testimonials**  
+- **Call To Action (CTA)**  
+- **Footer**  
+- **Header / Navbar**  
+- Fully responsive design  
 
-import CallToAction from "../components/CallToAction";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Hero from "../components/Hero";
-import LogoTicker from "../components/LogoTicker";
-import Pricing from "../components/Pricing";
-import ProductShowcase from "../components/ProductShowcase";
-import Testimonials from "../components/Testimonials";
+---
 
-export default function Home() {
-  return (
-    <>
-      <Header />
-      <Hero />
-      <LogoTicker />
-      <ProductShowcase />
-      <Pricing />
-      <Testimonials />
-      <CallToAction />
-      <Footer />
-    </>
-  );
-}
+## 🌐 Live Demo
 
+👉 **Demo Link:**  
+`https://your-project.vercel.app`
 
-🛠️ Tech Stack
+---
 
-Next.js – React framework for production
+## 🛠️ Tech Stack
 
-Tailwind CSS – Utility-first styling
+- **Next.js** – React framework for production  
+- **Tailwind CSS** – Utility-first styling  
+- **Responsive Design** – Works on all modern devices  
 
-Responsive Design – Works on all devices
+---
+

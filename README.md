@@ -1,5 +1,5 @@
-📄 README – Modern Landing Page (Next.js + Tailwind CSS)
-🚀 Overview
+##📄 README – Modern Landing Page (Next.js + Tailwind CSS)
+#🚀 Overview
 
 This project is a modern, responsive landing page built using Next.js and Tailwind CSS.
 It includes reusable components such as the Hero, Pricing, Testimonials, and Footer sections, making it easy to modify or extend.

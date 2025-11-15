@@ -8,21 +8,6 @@ It includes reusable components such as **Hero**, **Pricing**, **Testimonials**,
 The layout consists of a simple and clean structure suitable for **SaaS, startup, portfolio, or business landing pages**.
 
 
-## 📁 Project Structure
-/components
-  ├── Header.jsx
-  ├── Hero.jsx
-  ├── LogoTicker.jsx
-  ├── ProductShowcase.jsx
-  ├── Pricing.jsx
-  ├── Testimonials.jsx
-  ├── CallToAction.jsx
-  └── Footer.jsx
-/pages
-  └── index.jsx   (Home Page)
-
-
----
 
 ## 🧩 Homepage Structure
 

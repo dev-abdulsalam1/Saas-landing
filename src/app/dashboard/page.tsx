@@ -4,15 +4,12 @@
 import { useUser } from '@clerk/nextjs';
 import React from 'react'
 
-export default function DashboardPage () {
-  const {user} = useUser();
+export default function DashboardPage() {
   return (
-   <div className="p-6 space-y-6">
+    <div className="p-6 space-y-6">
       {/* Welcome Message */}
       <h1 className="text-3xl font-bold">
-        {user
-          ? `Welcome back, ${user.firstName}! 🚀`
-          : "Loading your dashboard..."}
+        Welcome back
       </h1>
 
       {/* Summary Cards */}
@@ -30,7 +27,7 @@ export default function DashboardPage () {
           <h2 className="text-xl font-semibold mt-2">3</h2>
         </div>
       </div>
-            
+
       {/* Mini List of Upcoming Tasks */}
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
         <h3 className="font-semibold mb-3">Upcoming Tasks</h3>

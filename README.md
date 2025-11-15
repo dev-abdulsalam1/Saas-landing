@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+📄 README – Modern Landing Page (Next.js + Tailwind CSS)
+🚀 Overview
 
-## Getting Started
+This project is a modern, responsive landing page built using Next.js and Tailwind CSS.
+It includes reusable components such as the Hero, Pricing, Testimonials, and Footer sections, making it easy to modify or extend.
 
-First, run the development server:
+The layout consists of a simple and clean structure suitable for SaaS, startup, portfolio, or business landing pages.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📁 Project Structure
+/components
+  ├── Header.jsx
+  ├── Hero.jsx
+  ├── LogoTicker.jsx
+  ├── ProductShowcase.jsx
+  ├── Pricing.jsx
+  ├── Testimonials.jsx
+  ├── CallToAction.jsx
+  └── Footer.jsx
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+/pages
+  └── index.jsx   (Home Page)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🧩 Homepage Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The Home component renders the entire landing page using the following sections:
 
-## Learn More
+import CallToAction from "../components/CallToAction";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import LogoTicker from "../components/LogoTicker";
+import Pricing from "../components/Pricing";
+import ProductShowcase from "../components/ProductShowcase";
+import Testimonials from "../components/Testimonials";
 
-To learn more about Next.js, take a look at the following resources:
+export default function Home() {
+  return (
+    <>
+      <Header />
+      <Hero />
+      <LogoTicker />
+      <ProductShowcase />
+      <Pricing />
+      <Testimonials />
+      <CallToAction />
+      <Footer />
+    </>
+  );
+}
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✨ Sections Included
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Header – Navigation bar
 
-## Deploy on Vercel
+Hero – Main intro section with big headline
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+LogoTicker – Logos of partners or brands
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ProductShowcase – Feature screenshot or product explanation
+
+Pricing – Pricing plans for users
+
+Testimonials – Customer feedback
+
+CallToAction – Final CTA button or signup block
+
+Footer – Copyright + useful links
+
+🛠️ Tech Stack
+
+Next.js – React framework for production
+
+Tailwind CSS – Utility-first styling
+
+Lucide Icons (optional) – Clean icon set
+
+Responsive Design – Works on all devices

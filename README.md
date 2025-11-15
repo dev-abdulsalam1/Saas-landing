@@ -31,7 +31,7 @@ The layout is clean and suitable for:
 ## 🌐 Live Demo
 
 👉 **Demo Link:**  
-`(https://saas-landing-steel.vercel.app/)`
+https://saas-landing-steel.vercel.app/
 
 ---
 
